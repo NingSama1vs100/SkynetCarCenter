@@ -103,7 +103,7 @@ public class PartSend extends javax.swing.JFrame {
         jLabel6.setText("รหัสช่างผู้เบิกอะไหล่:");
 
         jLabel7.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel7.setText("วันที่จ่ายอะไหล่");
+        jLabel7.setText("วันที่จ่ายอะไหล่:");
         jLabel7.setToolTipText("");
 
         jComboBox1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
@@ -126,7 +126,7 @@ public class PartSend extends javax.swing.JFrame {
         jLabel9.setToolTipText("");
 
         jLabel10.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel10.setText("จำนวน");
+        jLabel10.setText("จำนวน:");
 
         jSpinner1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
 
@@ -234,15 +234,14 @@ public class PartSend extends javax.swing.JFrame {
                                 .addGap(18, 18, 18)
                                 .addComponent(jTextField2, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel6)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(jLabel7)
+                                    .addComponent(jLabel6)
+                                    .addComponent(jLabel10))
                                 .addGap(18, 18, 18)
                                 .addComponent(jTextField4, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(58, 58, 58)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel10)
-                            .addComponent(jLabel7))
-                        .addGap(32, 32, 32)
+                        .addGap(209, 209, 209)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -379,7 +378,6 @@ public class PartSend extends javax.swing.JFrame {
         int dialogResult = JOptionPane.showConfirmDialog(null, "ข้อมูลถูกต้องแล้ว, ดำเนินการ?", "กรุณาตรวจสอบข้อมูล", JOptionPane.WARNING_MESSAGE);
         if (dialogResult == JOptionPane.YES_OPTION) {
             JOptionPane.showMessageDialog(null, "บันทึกเรียบร้อยแล้ว", "สำเร็จ", JOptionPane.INFORMATION_MESSAGE);
-            jTextField11.setText("");
             jTextField2.setText("");
             jTextField3.setText("");
             jTextField4.setText("");
@@ -396,7 +394,6 @@ public class PartSend extends javax.swing.JFrame {
             int dialogResult = JOptionPane.showConfirmDialog(null, "ข้อมูลถูกต้องแล้ว, ดำเนินการ?", "กรุณาตรวจสอบข้อมูล", JOptionPane.WARNING_MESSAGE);
             if (dialogResult == JOptionPane.YES_OPTION) {
                 JOptionPane.showMessageDialog(null, "บันทึกเรียบร้อยแล้ว", "สำเร็จ", JOptionPane.INFORMATION_MESSAGE);
-                jTextField11.setText("");
                 jTextField2.setText("");
                 jTextField3.setText("");
                 jTextField4.setText("");

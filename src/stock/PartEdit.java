@@ -20,20 +20,12 @@ public class PartEdit extends javax.swing.JFrame {
     /**
      * Creates new form Tools
      */
-    ButtonGroup limitMin = new ButtonGroup();
-    ButtonGroup limitMax = new ButtonGroup();
+    
 
     public PartEdit() {
         initComponents();
         setLocationRelativeTo(null);
         setVisible(true);
-        limitMin.add(jRadioButton1);
-        limitMin.add(jRadioButton3);
-        limitMax.add(jRadioButton2);
-        limitMax.add(jRadioButton4);
-
-        jRadioButton1.setSelected(true);
-        jRadioButton2.setSelected(true);
 
     }
 
@@ -384,8 +376,6 @@ public class PartEdit extends javax.swing.JFrame {
             jTextField7.setText("");
             jTextField8.setText("");
             jTextField9.setText("");
-            jRadioButton1.setSelected(true);
-            jRadioButton2.setSelected(true);
             jSpinner1.setEnabled(false);
             jSpinner2.setEnabled(false);
 
@@ -405,8 +395,6 @@ public class PartEdit extends javax.swing.JFrame {
                 jTextField7.setText("");
                 jTextField8.setText("");
                 jTextField9.setText("");
-                jRadioButton1.setSelected(true);
-                jRadioButton2.setSelected(true);
                 jSpinner1.setEnabled(false);
                 jSpinner2.setEnabled(false);
 
