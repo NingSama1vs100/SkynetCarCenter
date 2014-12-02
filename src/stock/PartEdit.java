@@ -77,6 +77,7 @@ public class PartEdit extends javax.swing.JFrame {
         jLabel12.setText("ชื่ออะไหล่เดิม:");
 
         jTextField7.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jTextField7.setText("Funky Spike");
         jTextField7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField7ActionPerformed(evt);
@@ -87,6 +88,7 @@ public class PartEdit extends javax.swing.JFrame {
         jLabel13.setText("รุ่น:");
 
         jTextField8.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jTextField8.setText("SPD-01");
         jTextField8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField8ActionPerformed(evt);
@@ -104,6 +106,7 @@ public class PartEdit extends javax.swing.JFrame {
         jLabel14.setText("ชื่อรุ่นใหม่:");
 
         jTextField10.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jTextField10.setText("Spike");
         jTextField10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField10ActionPerformed(evt);

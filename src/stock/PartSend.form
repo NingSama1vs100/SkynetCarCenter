@@ -179,7 +179,7 @@
                   <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jSpinner1" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="130" max="32767" attributes="0"/>
+              <EmptySpace pref="131" max="32767" attributes="0"/>
               <Component id="jButton1" min="-2" pref="43" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
           </Group>
@@ -208,6 +208,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="18" style="0"/>
         </Property>
+        <Property name="text" type="java.lang.String" value="TK-01"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField2ActionPerformed"/>
@@ -226,6 +227,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="18" style="0"/>
         </Property>
+        <Property name="text" type="java.lang.String" value="&#xe01;&#xe27; 1010"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField3ActionPerformed"/>
@@ -236,6 +238,7 @@
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Tahoma" size="18" style="0"/>
         </Property>
+        <Property name="text" type="java.lang.String" value="13358"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField4ActionPerformed"/>
@@ -298,6 +301,7 @@
             <StringItem index="30" value="31"/>
           </StringArray>
         </Property>
+        <Property name="selectedIndex" type="int" value="5"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel8">
@@ -330,6 +334,7 @@
             <StringItem index="11" value="&#xe18;&#xe31;&#xe19;&#xe27;&#xe32;&#xe04;&#xe21;"/>
           </StringArray>
         </Property>
+        <Property name="selectedIndex" type="int" value="9"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jComboBox2ActionPerformed"/>
@@ -430,66 +435,27 @@
     <Component class="javax.swing.JComboBox" name="jComboBox4">
       <Properties>
         <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-          <StringArray count="57">
+          <StringArray count="17">
             <StringItem index="0" value="--&#xe40;&#xe25;&#xe37;&#xe2d;&#xe01;--"/>
-            <StringItem index="1" value="2537"/>
-            <StringItem index="2" value="2536"/>
-            <StringItem index="3" value="2535"/>
-            <StringItem index="4" value="2534"/>
-            <StringItem index="5" value="2533"/>
-            <StringItem index="6" value="2532"/>
-            <StringItem index="7" value="2531"/>
-            <StringItem index="8" value="2530"/>
-            <StringItem index="9" value="2529"/>
-            <StringItem index="10" value="2528"/>
-            <StringItem index="11" value="2527"/>
-            <StringItem index="12" value="2526"/>
-            <StringItem index="13" value="2525"/>
-            <StringItem index="14" value="2524"/>
-            <StringItem index="15" value="2523"/>
-            <StringItem index="16" value="2522"/>
-            <StringItem index="17" value="2521"/>
-            <StringItem index="18" value="2520"/>
-            <StringItem index="19" value="2519"/>
-            <StringItem index="20" value="2518"/>
-            <StringItem index="21" value="2517"/>
-            <StringItem index="22" value="2516"/>
-            <StringItem index="23" value="2515"/>
-            <StringItem index="24" value="2514"/>
-            <StringItem index="25" value="2513"/>
-            <StringItem index="26" value="2512"/>
-            <StringItem index="27" value="2511"/>
-            <StringItem index="28" value="2510"/>
-            <StringItem index="29" value="2509"/>
-            <StringItem index="30" value="2508"/>
-            <StringItem index="31" value="2507"/>
-            <StringItem index="32" value="2506"/>
-            <StringItem index="33" value="2505"/>
-            <StringItem index="34" value="2504"/>
-            <StringItem index="35" value="2503"/>
-            <StringItem index="36" value="2502"/>
-            <StringItem index="37" value="2501"/>
-            <StringItem index="38" value="2500"/>
-            <StringItem index="39" value="2499"/>
-            <StringItem index="40" value="2498"/>
-            <StringItem index="41" value="2497"/>
-            <StringItem index="42" value="2496"/>
-            <StringItem index="43" value="2495"/>
-            <StringItem index="44" value="2494"/>
-            <StringItem index="45" value="2493"/>
-            <StringItem index="46" value="2492"/>
-            <StringItem index="47" value="2491"/>
-            <StringItem index="48" value="2490"/>
-            <StringItem index="49" value="2489"/>
-            <StringItem index="50" value="2488"/>
-            <StringItem index="51" value="2487"/>
-            <StringItem index="52" value="2486"/>
-            <StringItem index="53" value="2485"/>
-            <StringItem index="54" value="2484"/>
-            <StringItem index="55" value="2483"/>
-            <StringItem index="56" value="2482"/>
+            <StringItem index="1" value="2558"/>
+            <StringItem index="2" value="2557"/>
+            <StringItem index="3" value="2556"/>
+            <StringItem index="4" value="2555"/>
+            <StringItem index="5" value="2554"/>
+            <StringItem index="6" value="2553"/>
+            <StringItem index="7" value="2552"/>
+            <StringItem index="8" value="2551"/>
+            <StringItem index="9" value="2550"/>
+            <StringItem index="10" value="2549"/>
+            <StringItem index="11" value="2548"/>
+            <StringItem index="12" value="2547"/>
+            <StringItem index="13" value="2546"/>
+            <StringItem index="14" value="2545"/>
+            <StringItem index="15" value="2544"/>
+            <StringItem index="16" value="2543"/>
           </StringArray>
         </Property>
+        <Property name="selectedIndex" type="int" value="2"/>
       </Properties>
     </Component>
   </SubComponents>

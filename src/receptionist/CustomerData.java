@@ -93,6 +93,7 @@ public class CustomerData extends javax.swing.JFrame {
         jLabel14.setText("อีเมล์:");
 
         jTextField7.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jTextField7.setText("0875029984");
         jTextField7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField7ActionPerformed(evt);
@@ -100,6 +101,7 @@ public class CustomerData extends javax.swing.JFrame {
         });
 
         jTextField8.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jTextField8.setText("fu_47182@hotmail.com");
         jTextField8.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField8ActionPerformed(evt);
@@ -114,9 +116,11 @@ public class CustomerData extends javax.swing.JFrame {
 
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
+        jTextArea1.setText("471 ซอยหมู่บ้านเศรษฐกิจ 31 แขวงบางแคเหนือ เขตบางแค กรุงเทพฯ 10160");
         jScrollPane1.setViewportView(jTextArea1);
 
         jTextField6.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jTextField6.setText("1101500726718");
         jTextField6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField6ActionPerformed(evt);
@@ -139,6 +143,7 @@ public class CustomerData extends javax.swing.JFrame {
 
         jComboBox2.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "มกราคม", "กุมภาพันธ์", "มีนาคม", "เมษายน", "พฤษภาคม", "มิถุนายน", "กรกฎาคม", "สิงหาคม", "กันยายน", "ตุลาคม", "พฤศจิกายน", "ธันวาคม" }));
+        jComboBox2.setSelectedIndex(8);
         jComboBox2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboBox2ActionPerformed(evt);
@@ -170,6 +175,7 @@ public class CustomerData extends javax.swing.JFrame {
         jLabel6.setToolTipText("");
 
         jRadioButton1.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jRadioButton1.setSelected(true);
         jRadioButton1.setText("ชาย");
         jRadioButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -178,6 +184,7 @@ public class CustomerData extends javax.swing.JFrame {
         });
 
         jTextField4.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jTextField4.setText("วุฒิเทพบัญชา");
         jTextField4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField4ActionPerformed(evt);
@@ -188,6 +195,7 @@ public class CustomerData extends javax.swing.JFrame {
         jLabel5.setText("นามสกุลลูกค้า: ");
 
         jTextField3.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jTextField3.setText("กันต์");
         jTextField3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField3ActionPerformed(evt);
@@ -217,6 +225,7 @@ public class CustomerData extends javax.swing.JFrame {
         jLabel17.setText("ข้อมูลลูกค้า");
 
         jTextField2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jTextField2.setText("47182");
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField2ActionPerformed(evt);
@@ -242,7 +251,8 @@ public class CustomerData extends javax.swing.JFrame {
             }
         });
 
-        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "---เลือก---\t\t", " ", "\t\tAustralian", "\t\tBelgian", "\t\tBolivian", "\t\tBrazilian", "\t\tCambodian", "\t\tCameroonian", "\t\tCanadian", "\t\tChilean", "\t\tChinese", "\t\tColombian", "\t\tCosta Rican", "\t\tCuban", "\t\tDanish (Dane)", "\t\tDominican", "\t\tEcuadorian", "\t\tEgyptian", "\t\tSalvadorian", "\t\tEnglish", "\t\tEstonian", "\t\tEthiopian", "\t\tFinnish", "\t\tFrench", "\t\tGerman", "\t\tGhanaian", "\t\tGreek", "\t\tGuatemalan", "\t\tHaitian", "\t\tHonduran", "\t\tIndonesian", "\t\tIranian", "\t\tIrish", "\t\tIsraeli", "\t\tItalian", "\t\tJapanese", "\t\tJordanian", "\t\tKenyan", "\t\tKorean", "\t\tLaotian", "\t\tLatvian", "\t\tLithuanian", "\t\tMalaysian", "\t\tMexican", "\t\tMoroccan", "\t\tDutch", "\t\tNew Zealander", "\t\tNicaraguan", "\t\tNorwegian", "\t\tPanamanian", "\t\tParaguayan", "\t\tPeruvian", "\t\tFilipino", "\t\tPolish", "\t\tPortuguese", "\t\tPuerto Rican", "\t\tRomanian", "\t\tRussian", "\t\tSaudi", "\t\tSpanish", "\t\tSwedish", "\t\tSwiss", "\t\tTaiwanese", "\t\tTajik", "\t\tThai", "\t\tTurkish", "\t\tUkrainian", "\t\tAmerican *", "\t\tUruguayan", "\t\tVenezuelan", "\t\tVietnamese", "\t\tWelsh", " " }));
+        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "---เลือก---\t\t", "\t\tAustralian", "\t\tBelgian", "\t\tBolivian", "\t\tBrazilian", "\t\tCambodian", "\t\tCameroonian", "\t\tCanadian", "\t\tChilean", "\t\tChinese", "\t\tColombian", "\t\tCosta Rican", "\t\tCuban", "\t\tDanish (Dane)", "\t\tDominican", "\t\tEcuadorian", "\t\tEgyptian", "\t\tSalvadorian", "\t\tEnglish", "\t\tEstonian", "\t\tEthiopian", "\t\tFinnish", "\t\tFrench", "\t\tGerman", "\t\tGhanaian", "\t\tGreek", "\t\tGuatemalan", "\t\tHaitian", "\t\tHonduran", "\t\tIndonesian", "\t\tIranian", "\t\tIrish", "\t\tIsraeli", "\t\tItalian", "\t\tJapanese", "\t\tJordanian", "\t\tKenyan", "\t\tKorean", "\t\tLaotian", "\t\tLatvian", "\t\tLithuanian", "\t\tMalaysian", "\t\tMexican", "\t\tMoroccan", "\t\tDutch", "\t\tNew Zealander", "\t\tNicaraguan", "\t\tNorwegian", "\t\tPanamanian", "\t\tParaguayan", "\t\tPeruvian", "\t\tFilipino", "\t\tPolish", "\t\tPortuguese", "\t\tPuerto Rican", "\t\tRomanian", "\t\tRussian", "\t\tSaudi", "\t\tSpanish", "\t\tSwedish", "\t\tSwiss", "\t\tTaiwanese", "\t\tTajik", "\t\tThai", "\t\tTurkish", "\t\tUkrainian", "\t\tAmerican *", "\t\tUruguayan", "\t\tVenezuelan", "\t\tVietnamese", "\t\tWelsh" }));
+        jComboBox4.setSelectedIndex(63);
         jComboBox4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboBox4ActionPerformed(evt);
@@ -250,6 +260,7 @@ public class CustomerData extends javax.swing.JFrame {
         });
 
         jComboBox5.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "--เลือก--", "2537", "2536", "2535", "2534", "2533", "2532", "2531", "2530", "2529", "2528", "2527", "2526", "2525", "2524", "2523", "2522", "2521", "2520", "2519", "2518", "2517", "2516", "2515", "2514", "2513", "2512", "2511", "2510", "2509", "2508", "2507", "2506", "2505", "2504", "2503", "2502", "2501", "2500", "2499", "2498", "2497", "2496", "2495", "2494", "2493", "2492", "2491", "2490", "2489", "2488", "2487", "2486", "2485", "2484", "2483", "2482" }));
+        jComboBox5.setSelectedIndex(1);
         jComboBox5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jComboBox5ActionPerformed(evt);

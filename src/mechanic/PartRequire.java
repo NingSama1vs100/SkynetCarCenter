@@ -65,6 +65,7 @@ public class PartRequire extends javax.swing.JFrame {
         jLabel4.setText("ชื่ออะไหล่:");
 
         jTextField2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jTextField2.setText("Funky Spike");
         jTextField2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField2ActionPerformed(evt);
@@ -75,6 +76,7 @@ public class PartRequire extends javax.swing.JFrame {
         jLabel5.setText("รุ่น:");
 
         jTextField3.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jTextField3.setText("SPD-01");
         jTextField3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField3ActionPerformed(evt);
@@ -91,6 +93,7 @@ public class PartRequire extends javax.swing.JFrame {
         jLabel8.setText("ทะเบียนรถที่ต้องการอะไหล่:");
 
         jTextField5.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jTextField5.setText("1010");
         jTextField5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField5ActionPerformed(evt);
@@ -111,6 +114,7 @@ public class PartRequire extends javax.swing.JFrame {
         });
 
         jTextField6.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jTextField6.setText("ยาง");
         jTextField6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField6ActionPerformed(evt);
@@ -132,6 +136,7 @@ public class PartRequire extends javax.swing.JFrame {
         jLabel2.setText("Skynet Part Request");
 
         jTextField7.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jTextField7.setText("กว");
         jTextField7.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField7ActionPerformed(evt);
