@@ -56,7 +56,6 @@ public class PartRequire extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("แจ้งความต้องการอะไหล่");
-        setBackground(new java.awt.Color(204, 51, 0));
 
         jLabel17.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
         jLabel17.setText("แจ้งความต้องการอะไหล่");
